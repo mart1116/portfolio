@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: fieldwork, sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: verveine, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 6rem;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+h2 {
+  font-family: verveine, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+h3 {
+  font-family: fieldwork, sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+h4 {
+  font-family: fieldwork, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+p {
+  font-family: fieldwork, sans-serif;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #3DAF2C;
+  transition: 0.2s;
+}
+
+header {
+  width: 100%;
+}
+
+.header {
+
+  display: block;
+  height: 500px;
+  width: 100%;
+  padding: 5rem;
+}
+
+.head {
+  background-image: url("../assets/main_head.png");
+  width: 100%;
+}
+
+.nav {
+  background: rgba(225, 225, 225, 0.5);
+  list-style-type: none;
+  display: flex;
+
+}
+
+.logo {
+  max-width: 150px;
+  padding: .5rem;
+  padding-left: 1rem;
+
+}
+
+.lo {
+  margin-right: auto;
+}
+
+.list {
+  padding-top: 1rem;
+  padding-right: 80px;
+}
+
+.nav li {
+  text-align: center;
+
+}
+
+.first_intro {
+  width: 500px;
+}
+
+#btn {}
+
+.btn {
+  color: white !important;
+  font-size: .75rem;
+  font-weight: 20;
+  padding: 0.7rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: #3DAF2C;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+#intro {
+  display: grid;
+  grid-template-columns: repeat(2, 40% 60%);
+  text-align: center;
+}
+
+.intro_text {
+  padding-right: 5rem;
+  padding-top: 2rem;
+}
+
+.bio {
+  text-align: left;
+}
+
+.portrait,
+.portrait2 {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+#beginning,
+#end {
+  padding-bottom: 5rem;
+}
+
+#portfolio {
+  background-color: rgb(225, 225, 225);
+  padding-bottom: 5rem;
+}
+
+
+.portfolio_sections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;
+  text-align: center;
+}
+
+.icon {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+.contact_info {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.form {
+  text-align: center;
+}
+
+form {
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.name,
+.email {
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+textarea {
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+input {
+  padding: 20px;
+  padding-left: 10px;
+}
+
+.tab {
+  padding: 1rem;
+  padding-left: 3rem;
+}
+
+.spam {
+  padding-left: 3rem;
+}
+
+.submit {
+  color: white;
+  font-size: .75rem;
+  font-weight: 20;
+  padding: 0.7rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: #3DAF2C;
+  border-radius: 5px;
+  margin: 2rem;
+
+}
+
+.submit:hover,
+.btn:hover {
+  cursor: pointer;
+  color: black !important;
+  background-color: white;
+  border: 2px solid #3DAF2C;
+  transition: 0.3s;
+
+}
+
+footer {
+  text-align: center;
+  padding-top: 5rem;
+
+}
+
+.copyright {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: .75rem;
+  font-weight: 10;
+}
+
+/*.footer {
+  display: grid;
+  grid-template-columns: repeat(6, 30% 10% 10% 10% 10% 10%);
+  grid-gap: 15px;
+  background-color: grey;
+}
+
+
+.totop {
+  color: white !important;
+  font-size: .75rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #3DAF2C;
+}
+*/
+
+.top {
+  background-color: grey;
+}
+
+.totop:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+
+  #intro {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .intro_text {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+  }
+
+  .portfolio_sections {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .icon {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  }
+
+  h4 {
+    padding-bottom: 100px;
+  }
+
+  #contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .form {
+    padding-right: 0%;
+  }
+
+  /**********/
+  #illu {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .nav {
+    background: rgba(225, 225, 225, 0.5);
+    list-style-type: none;
+    display: grid;
+    text-align: center;
+    padding-bottom: 50px;
+
+  }
+
+  .logo {
+    max-width: 150px;
+    padding: .5rem;
+
+  }
+
+  .lo {
+    text-align: center;
+  }
+
+  .list {
+    padding-top: 1rem;
+  }
+
+  .nav li {
+    text-align: center;
+  }
+
+  .first_intro {
+    width: 400px;
+  }
+
+  #illu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*****************************************************/
+
+.header_graphic {
+  background-image: url("../assets/graphic_head.png");
+  width: 100%;
+}
+
+.header_illustration {
+  background-image: url("../assets/illu_head.png");
+  width: 100%;
+}
+
+.header_web {
+  background-image: url("../assets/web_head.png");
+  width: 100%;
+}
+
+.graphic_intro,
+.illustration_intro,
+.web_intro {
+  padding: 3rem;
+}
+
+.back {
+  color: #3DAF2C !important;
+
+}
+
+.link {
+  padding-left: 15px;
+}
+
+#illu,
+#graphic,
+#web {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  border: 2px solid grey;
+}
